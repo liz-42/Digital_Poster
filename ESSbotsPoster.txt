@@ -1,0 +1,49 @@
+Early adolescent friendship plays an important role in childhood development, 
+and offline social networks have a positive association with 
+mood, self-esteem, and lack of loneliness [1,2]. 
+Yet teenagers increasingly rely on online communication platforms 
+to connect with their friends,
+which lack many of the important benefits of in-person interaction,
+such as robust emotional expression and affective social touch [3].
+To address some of the shortcomings of group online communication, 
+we explore the design of ESSbots, 
+a new kind of physical social media 
+that takes advantage of swarm robots' tangibility, multiplicity, and agency 
+to promote meaningful, embodied, and emotional connection 
+among remote teen friend groups.
+We conducted two exploratory workshops 
+to broadly assess our idea, 
+and we are currently conducting a series of iterative participatory design workshops with teenagers 
+to understand how teens conceptualize ESSbots, 
+how they want to communicate and use them, 
+and how we can make creating custom robot behaviours accessible and engaging to teens.
+Each workshop follows the same iterative approach:
+Themed workshop with:
+Group discussion questions
+Demos
+Interactive design activities
+Post-workshop analysis:
+Minimal collaborative data coding
+Prototype iteration:
+Robot behaviour improvement
+Robot control improvement
+Exploratory Workshops
+ESSbots best communicate emotions, social closeness
+Combinable behaviours create layered meaning (actions, parameters, swarmness)
+Workshop Series 1: Conceptualizing ESSbots Communication
+Conceptual model generated from exploratory workshop consistent with workshop 1 results
+Natural mapping between behaviour type (action) and parameters or control
+Workshop Series 2: Customization and Control
+Situational context influences both robot behaviours and desired control method
+Access to both simple behaviour presets and highly customizable robot programming is desirable
+Participants found ESSbots most compelling for situations where they would be unable to see their friends in person
+(e.g., they live in a different country), 
+and want to feel closer to them. 
+ESSbots are also best suited for sharing simple messages, 
+and thus may work best when integrated with other social tech modalities.
+ESSbots show promise as a supplemental social technology 
+to support affective, embodied communication. 
+We will continue to iterate on our prototype based on participant feedback, 
+and we plan to conduct two more workshops 
+to explore the social dynamics of using ESSbots within a remote friend group 
+and evaluate a final prototype for the ESSbots system.

@@ -1,0 +1,77 @@
+Singing is a versatile, powerful means of artistic expression, 
+yet physically singing is quite a complex process. 
+Learning about some of the mathematical principles that explain why the human voice sounds the way it does 
+can help us understand our own voices better,
+add effects to sound recordings, 
+or even synthesize entirely new voices.
+For example, voice analysis allows us to study the intricacies of sound production, 
+create visualization tools,
+and has implications for vocal pedagogy and the study of voice pathologies. 
+On the other hand, voice synthesis facilitates the creation of entirely original music, 
+and may be particularly useful for composers. 
+Analysis and synthesis can even be combined to modify existing voice parts 
+or create special effects.
+There are two main types of voice models: 
+physical and spectral.
+Physical Models represent the anatomical interactions that occur during sound production. 
+These models require a deep understanding of vocal anatomy and physics 
+to develop and use effectively.
+Spectral Models represent the properties of sound waves after they have left the mouth. 
+These models do not rely on sophisticated knowledge of vocal anatomy, 
+but instead rely on the properties of sound waves 
+and the principles of sound wave interaction.
+Singing requires the interaction of breath, oscillators, resonators, and articulators. 
+Physical models typically focus on two parts of sound production: 
+the sound source, 
+and the resonating space, 
+which are modelled independently and later combined together.
+The sound source: 
+the interaction of air moving through the vocal folds.
+The vocal folds are represented as a number of individual masses: 
+forces act on the masses, 
+which determine the mass positions over time.
+An example of a simple vocal fold model proposed by Flanagan [2] is given as:
+The resonating space: 
+the vocal tract resonators enhance some overtones and dampen others, 
+giving the human voice its characteristic sound. 
+Vocal tract models aim to simply the wave equation:
+by representing the vocal tract as a series of cylinders or cones. 
+Forward and backward travelling waves are then calculated for each cylinder by the equation [6]:
+There are many important properties of sound waves,
+including intensity, directivity, and sound scattering, 
+but for spectral models, one of the most important concepts arises from Fourier analysis.
+In particular, any waveform can be built up from an appropriate set of sine waves, 
+and any waveform can be deconstructed into a set of sine waves. 
+These individual sine waves are the partials or harmonics of the waveform,
+and we can break up a waveform into harmonic parts, 
+deal with each separately in a model, 
+and recombine the results.
+The discrete Fourier transform and inverse discrete Fourier transform are given as follows [4]:
+The inverse transform is given by:
+Some types of spectral models rely on a similar method,
+called additive synthesis, 
+which requires the frequency, amplitude, and phase of each sinusoidal component to be known. 
+If that is the case, then the original wave f can be re-synthesized using the following equation [4]:
+The example below shows how an additive synthesis model, 
+first derived by Diaz [1], 
+can be used to resynthesize vibrato. 
+Note that the reconstruction is imperfect, 
+likely due to the variation of vibrato extent and rate that occurs over the sample.
+Physical models:
+Require detailed knowledge of vocal anatomy and physics
+Involve solving (sometimes complex) differential equations
+Are very good at modelling specific vocal fold properties
+Don't easily generalize to different singers if specific anatomical measurements are not known
+Spectral models:
+Require an understanding of basic sound properties, and are generally simpler
+Much more generalizable across different singers
+Especially good for analysis and re-synthesis
+Aren't well suited for certain representational tasks (e.g., complex voice pathologies)
+Both modelling types can be more or less complex, 
+and each is ideal for different types of modelling tasks.
+Machine learning approaches might also be useful 
+to consider and compare
+Worth exploring how these models handle professional vs. amateur singers, 
+as well as different styles
+Can these models be adapted to handle multiple singers?
+Can understanding models like these improve a singer's understanding of their own voice?
